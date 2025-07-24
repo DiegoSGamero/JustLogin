@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './login-layout.html',
-  styleUrls: ['./login-layout.css']
+  styleUrl: './login-layout.css'
 })
 export class LoginLayout {
 
