@@ -1,3 +1,7 @@
+html {
+    padding: 0;
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -5,17 +9,41 @@ main {
     justify-content: space-between;
     background-color: rgba(199, 199, 199, 1);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
+.left-img {
+    height: 100vh;
+}
+
+.right-img {
+    height: 100vh;
+}
 
 .login-logo {
-    width: 220px;
+    width: 240px;
     height: auto;
     border-radius: 8px;
 }
 
 section{
     text-align: center;
+}
+
+button.btn-signin {
+    background-color: rgba(235, 243, 255, 1);
+    width: 200px;
+    height: 24px;
+    border-radius: 6px;
+    border: 0.1px solid #929292; 
+}
+
+.btn-signp {
+    background-color: rgba(233, 185, 96, 1);
+    width: 200px;
+    height: 24px;
+    border-radius: 6px;
+    border: 0.1px solid rgba(23, 23, 23, 0.41);     
 }
